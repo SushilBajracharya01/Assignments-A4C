@@ -13,7 +13,7 @@ int main(){
 		scanf("%d",&arr[r]);
 	}
 	
-	//loop to check odd or even
+	//loop to check odd or even or zero.
 	for(r=0;r<10;r++){
 		if(arr[r]==0){
 			zer++;
