@@ -19,7 +19,6 @@ int main(){
 			zer++;
 			continue;
 		}
-		else{
 		if(arr[r]%2==0){
 			eve++;
 			esum+=arr[r];
@@ -28,8 +27,8 @@ int main(){
 			odd++;
 			osum+=arr[r];
 		}
-		}
 	}
+	
 	tsum=esum+osum;
 	
 	printf("\n ***The entered numbers : ***\n\n\t");
