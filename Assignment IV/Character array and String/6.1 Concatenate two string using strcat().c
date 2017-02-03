@@ -11,7 +11,7 @@ int main(){
 	printf("Enter 2nd string : ");
 	gets(sec);
 	
-	printf("Combinating the 2 strings we get : %s",strcat(fir,sec));
+	printf("Combining the 2 strings we get : %s",strcat(fir,sec));
 	
 	return 0;
 }
