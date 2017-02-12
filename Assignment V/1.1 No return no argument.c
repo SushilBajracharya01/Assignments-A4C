@@ -13,8 +13,8 @@ void nodiv(){
 
 int main(){
 	int num;
-
-  printf("Enter any number : ");
+  
+	printf("Enter any number : ");
 	scanf("%d",&num);
 	
 	if (num%5==0&&num%7==0){
@@ -25,5 +25,4 @@ int main(){
   }
   
   return 0;
-
 }
