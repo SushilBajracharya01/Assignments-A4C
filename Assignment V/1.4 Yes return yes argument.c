@@ -25,7 +25,5 @@ void main(){
 		printf("It is NOT divisible by 5 and 7");
 	}
   
-  return 0;
+ 	return 0;
 }
-
-	
