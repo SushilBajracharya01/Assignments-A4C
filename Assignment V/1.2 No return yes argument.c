@@ -17,5 +17,6 @@ int main(){
 	printf("Enter any number : ");
 	scanf("%d",&num);
 	div(num);
-  return 0;
+
+	return 0;
 }
