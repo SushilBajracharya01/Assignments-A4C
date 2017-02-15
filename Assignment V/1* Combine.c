@@ -110,7 +110,7 @@ int main()
 		main();
 	}
 	else{
-		printf("THANK YOU ! HAVE A NICE DAY ");
+		printf("\t\t THANK YOU ! HAVE A NICE DAY ");
 	}
 	
 }
