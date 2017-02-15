@@ -6,7 +6,7 @@ int fibo(int);
 int main()
 {
    int x,n, i = 0, c;
-	printf("particular term : ");
+   printf("particular term : ");
    scanf("%d",&n);
  
    for ( c = 1 ; c <= n ; c++ )
