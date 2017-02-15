@@ -1,8 +1,10 @@
 // a program to check whether the number is divisible by 5 and 7 with no return yes argument
 
 #include <stdio.h>
- int num; // Global variable.
 
+int num; // Global variable.
+
+  
 // NO Return NO Argument. CASE 1.
 void div (){
 	printf("It is Divisible by 5 and 7.");
@@ -42,10 +44,8 @@ int divi(int n){
 	}
 }
 
-
-int main(){
+int loop(){
 	int cho;
-	loop:
 	printf("\nTo check whether the number is divisible by 5 and 7 Using :\n");
 	printf("Press 1 :: NO  Return NO  Argument \nPress 2 :: NO  Return YES Argument \nPress 3 :: YES Return NO  Argument \nPress 4 :: YES Return YES Argument\n==>");
 	scanf("%d",&cho);
@@ -94,8 +94,24 @@ int main(){
 			}
 			break;
 		default:
-			printf("********INVALID INPUT*********\n\tTRY AGAIN");
-			goto loop;
+			printf("********INVALID INPUT*********\n\tTRY AGAIN\n");
+			break;
 	}
-	return 0;
+	
+	}
+
+int main()
+{
+	loop();
+	char ans;
+	printf("\n\nTo TRY AGAIN press 'y' : ");
+	scanf(" %c", &ans);
+	if(ans=='y'){
+		main();
+	}
+	else{
+		printf("THANK YOU ! HAVE A NICE DAY ");
+	}
+	
 }
+
