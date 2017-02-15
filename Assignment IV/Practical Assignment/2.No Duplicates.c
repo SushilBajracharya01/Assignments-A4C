@@ -31,7 +31,7 @@ int main (){
 			}
 			}
 		if(flag!=1){
-			printf("%d",arr[i]);	
+			printf("%d\t",arr[i]);	
 		}
 	}
 }	
