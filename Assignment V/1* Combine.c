@@ -1,4 +1,4 @@
-// a program to check whether the number is divisible by 5 and 7 with no return yes argument
+// a program to check whether the number is divisible by 5 and 7.
 
 #include <stdio.h>
 
